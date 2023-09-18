@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+.container{
+    display: flex;
+}
+
+.box{
+    margin: 5px;
+    padding: 7px;
+}
+
+.box h3{
+    text-align: center;
+}
+
+.keyCode{
+    margin: 2px;
+    padding: 35px;
+    border: 2px black solid;
+    background-color: white;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+}
